@@ -91,6 +91,32 @@ button {
 }
 
 /* Article */
+aside .article img { 
+	width: 100px;
+	height:100px;
+	object-fit: cover;
+	margin-right: 1em;
+	float: left;
+}
+aside .article{
+	clear: both;
+}
+main .articles{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+main .articles h2{
+	width: 100%;
+}
+main .articles .article{
+	width: 48%;
+	padding: 1em;
+	margin: 1%;
+}
+main .articles .article:nth-child(even){
+	background-color: #f1f1f1;
+}
 .article {
 	margin-bottom: 2em;
 }
@@ -138,4 +164,23 @@ button {
 	.navbar-brand > img {
 	   max-height: 80px;
 	}
+}
+.side-foto {
+    max-width: 30%;
+    
+}
+.jumbotron {
+    background-image: url(/week1/1-bikes-for-refugees/images/header-bike.jpg);
+    background-position: center;
+    background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.img-fluid {
+    max-width: 30%;
+    height: auto;
+}
+button {
+    font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+    background-color: darkorange;
 }
