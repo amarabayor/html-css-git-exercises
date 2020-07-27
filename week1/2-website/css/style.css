@@ -6,3 +6,72 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+#logo-one{width: 150px;
+    border-radius: 10%;
+    height: 100px;
+    
+}
+.liberia{
+    font-size: 20px;
+    font-family:sans-serif;
+    margin-top: 0pt;
+    border-radius: 10px;
+    background-color: rgb(211, 85, 85);
+    padding: 5px;
+    float: auto;
+}
+#img-1{
+    width: 99%;
+    max-height: 400px;
+    padding: 0px;
+    
+}
+#img-caption{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0pt;
+    background-color: mediumblue;
+    border-radius: 5px;
+    padding: 5px;}
+    .flag{
+        font-size: 50px;
+        margin: 0pt;
+        text-align: center;
+
+    }
+    #counties-flags{
+    width: 99%;
+    max-height: 400px;
+    padding: 0px;
+    
+}
+.cost{font-size: 50px;
+    text-align: center;
+    margin-top: 0pt;
+    background-color: mediumblue;
+    border-radius: 5px;
+    padding: 5px;}
+#history{text-decoration: underline;}
+
+h1 {
+    font-size: 100px;
+    margin:0px 25px;
+    
+}
+.logo{
+    display: flex;
+    }
+    header{
+        background-color: mediumblue;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    h3 { font-size:20px;
+    text-decoration:underline;
+    }
+    #county{
+        font-size:20px;
+        line-height:2em;
+    }
+    h4 {float: right;
+    background-color: mediumblue;}
