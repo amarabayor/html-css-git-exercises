@@ -62,16 +62,32 @@ h1 {
     display: flex;
     }
     header{
-        background-color: mediumblue;
         padding: 5px;
         border-radius: 5px;
     }
-    h3 { font-size:20px;
+   nav h3{ font-size:20px;
     text-decoration:underline;
-    }
-    #county{
-        font-size:20px;
-        line-height:2em;
-    }
-    h4 {float: right;
-    background-color: mediumblue;}
+    text-align: center;
+   }
+    
+    nav {
+        background-color: darkgray;
+        padding: 0px;
+        border-radius: 10px;}
+    
+        nav li {
+        width: 24%;
+        display: inline-block;
+        font-size: 15px;
+        margin-bottom: 1;
+        }
+        form input{
+            font-size: 25px;
+            border-radius: 10px;
+            }
+    footer{
+        font-size: 20px;
+        float: right;
+    }   
+
+    
