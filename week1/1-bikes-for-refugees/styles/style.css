@@ -170,7 +170,7 @@ main .articles .article:nth-child(even){
     
 }
 .jumbotron {
-    background-image: url(/week1/1-bikes-for-refugees/images/header-bike.jpg);
+    background-image: url(/html-css-git-exercises/week1/1-bikes-for-refugees/images/header-bike.jpg);
     background-position: center;
     background-size: cover;
 	background-repeat: no-repeat;
@@ -183,4 +183,8 @@ main .articles .article:nth-child(even){
 button {
     font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
     background-color: darkorange;
+}
+  @media screen and (max-width: 365px) {
+	.jumbotron button {
+		font-size:10px;
 }
