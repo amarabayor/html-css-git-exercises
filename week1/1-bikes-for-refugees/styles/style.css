@@ -170,7 +170,7 @@ main .articles .article:nth-child(even){
     
 }
 .jumbotron {
-    background-image: url(/html-css-git-exercises/week1/1-bikes-for-refugees/images/header-bike.jpg);
+    background-image: url(/week1/1-bikes-for-refugees/images/header-bike.jpg);
     background-position: center;
     background-size: cover;
 	background-repeat: no-repeat;
@@ -184,7 +184,41 @@ button {
     font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
     background-color: darkorange;
 }
-  @media screen and (max-width: 365px) {
+ 
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.boxes div{ 
+	border: 1px solid black;
+    background: #ddd;
+    text-align: center;
+	justify-content: center;
+	font-size: 20px;
+	padding: 2px 2px;
+	align-items: center;
+	width: 20%;
+	min-height: 100px;
+	display: grid;
+
+    
+    
+}
+
+
+@media screen and (max-width: 365px) {
 	.jumbotron button {
 		font-size:10px;
+	}
+	boxes div{
+		width: 100%;
+		display: grid;
+	}
+
 }
