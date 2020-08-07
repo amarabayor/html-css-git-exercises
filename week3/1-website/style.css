@@ -1,1 +1,45 @@
 /*  Add your styling here */
+.brand .logo img{
+    height: 5.4em;
+}
+body{
+    background-color: lightseagreen;
+    
+}
+
+.nav-link {
+    color:white! important
+    
+}
+.card-body h1{
+    background-color: lightslategray;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.card-body{
+    background-color: lightsteelblue !important
+}
+.carousel-inner{
+    border-radius: 8px;
+}
+div ul{
+    font-size: 20px;
+    font-weight: bold;
+}
+.col-2{ 
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    
+    
+}
+h4{
+    text-align: center;
+    margin-top: 3px;
+}
+
+    
+    
+
+
